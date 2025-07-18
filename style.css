@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "myFont";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "myFont", sans-serif;
+}
+body{
+    background-color: #ffdc00;
+}
+.mainBanner{
+    width: 320px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 200px auto 0 ;
+    padding: 20px;
+    box-shadow: 8px 8px black;
+}
+.mainImg img{
+    width: 100%;
+    border-radius: 10px;
+}
+.type{
+    margin-top: 20px;
+    color: black;
+    background-color: #ffdc00;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: fit-content;
+}
+.date{
+    font-size: 14px;
+    margin-top: 15px;
+    text-shadow: 0 0 1px;
+}
+.heading{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.description{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #848484;
+}
+.pic img{
+    width: 30px;
+    height: 30px;
+}
+.pic div{
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.pic{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
